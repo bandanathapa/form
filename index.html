@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form </title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body style="margin:auto;">
+<p class="display-3 text-center">Payment Form</p>
+<form class="mb-3 text-center" style="width:45%; margin-left:25%;">
+
+	<input type="text" name="Name" class="form-control border-success" placeholder="Name"><br>
+	<label style="display:flex; flex-direction:row;">
+	Gender: 
+	<div class="container" style="border:1px solid black; text-align:left; border-radius:10px;">
+		<input type="radio" class="form-check-input" name="gender" value="male"> Male<br>
+		<input type="radio" class="form-check-input" name="gender" value="female"> Female <br>
+	</div>
+	</label><br>
+	<input type="Email" class="form-control border-success" id="exampleFormControlInput1"  name="Email" placeholder="Email"><br>
+	<input type="password" id="inputPassword5" class="form-control border-success" name="password" placeholder="Pincode"><br>
+	<input type="text" name="Address"  class="form-control border-success" placeholder="Address">
+	<p class="display-5">Payment Details</p>
+	<input type="text" name="Card_Type" class="form-control border-success" placeholder="Card-Type"><br>
+	<input type="number" name="Card_no"  class="form-control border-success"placeholder="Card_no"><br>
+
+	<input type="Date" name="Date"   class="form-control border-success" placeholder="Expiration Date"><br>
+	<input type="number" name="CVV" class="form-control border-success"  placeholder="CVV"><br>
+	<input type="submit" class="btn btn-success border-success" value="Pay Now " name="Pay Now" placeholder="pay Now">
+
+</form>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
